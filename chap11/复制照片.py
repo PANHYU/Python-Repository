@@ -1,0 +1,5 @@
+src_file=open('logo.png','rb')
+tar_file=open('copy.png','wb')
+tar_file.write(src_file.read())
+tar_file.close()
+src_file.close()
